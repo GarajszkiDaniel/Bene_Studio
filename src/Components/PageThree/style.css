@@ -1,0 +1,59 @@
+.card_weather{
+    background: rgba(255, 255, 255, 0.65);
+    border-radius: 16px;
+    box-shadow: 5px 10px 30px rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10.4px);
+    -webkit-backdrop-filter: blur(10.4px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    width: 40vw;
+    height: 75vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sunrise-sunset{
+    display: flex;
+    align-items: center;
+    column-gap: 1vw;
+    margin-top: 2vw;
+    margin-left: -4vw;
+    font-size: 1.5vw;
+}
+.back_icon{
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+    font-size: 2vw;
+    transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out;
+    cursor: pointer;
+    color: #FC4F00;
+}
+.back_icon:hover {
+    color: #1D2228;
+    text-shadow: #e0e0e0 1px 1px 0, 0px 0px 8px rgba(255,255,255,0.64);
+}
+
+.weather-icon{
+width: 8vw;
+}
+
+.weather-icon_svg{
+    font-size: 3vw;
+    color: #FC4F00;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.temperature{
+    font-size: 3vw;
+    color:#FC4F00;
+    font-weight: 800;
+}
+h1{
+    color:#FC4F00;
+}
